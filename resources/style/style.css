@@ -3,6 +3,7 @@
     margin: o;
     padding: 0;
     font-family: Merriweather;
+    font-size: normal;
 }
 
 .container{
@@ -78,17 +79,34 @@ background-attachment: fixed;
  }
  /* welcome to might night */
  .party{
-    background-repeat: no-repeat;
+    background-image: url('../Vectorrr.png');
+     background-repeat: no-repeat;
+     width: 1320px;
+     height: 600px;
+     margin: 300px auto;
+     padding: 126px 552px 298px 126px;
  }
 
- .party-heading{
-    background-image: url('../Vectorrr.png');
-    width: 1320px;
-    height: 600px;
-    margin: 500px auto;
-    background-attachment: fixed;
-    flex-shrink: 0;
-    border-radius: 16px;
+ .party-heading {
+    color: #FFF;
+ }
+ .party-heading h1{
+    font-size: 64px;
+    font-style: normal;
+    padding: 5px 552px 0px 126px;
+ }
+ .party-heading p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 552px 0px 126px;
+ }
+ .party-heading button{
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 5px 552px 0px 126px;
  }
 
 
