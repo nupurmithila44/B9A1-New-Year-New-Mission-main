@@ -12,7 +12,7 @@ header{
 }
 
 p{
-   color: white;
+   color: rgba(83, 73, 73, 0.8);
    text-align: center;
    font-family: Inter;
    font-size: 20px;
@@ -141,11 +141,33 @@ padding: 126px;
    padding: 100px 0px;
    align-items: center;
    text-align: center;
-   fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
    background-position:center ;
    border: 5px solid aqua;
 
  }
+.place-heading .red{
+   color: red;
+ }
+ .place-heading{
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; 
+text-transform: capitalize;
+ }
+ /* main coming soon main */
+ .coming{
+   width: 825%;
+   max-width: 1320px;
+   height: 600px;
+   margin-top: 400px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-position:center ;
+   background: #FFF;
+    }
 
 
 
