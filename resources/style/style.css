@@ -168,6 +168,57 @@ text-transform: capitalize;
    background-position:center ;
    background: #FFF;
     }
+   .coming-heading{
+      width: 393px;
+      padding-left: 100px;
+      gap: 25px;
+   }
+   .coming-heading h5{
+      color: #F00;
+      text-align: left;
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 10px;
+   }
+   .coming-heading h1{
+      color: #070211;
+      font-family: Merriweather;
+      font-size: 37px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+   }
+.coming-heading p{
+   text-align: left;
+}
+.box-img{
+   width: 364.844px;
+   height: 364.844px;
+   flex-shrink: 0;
+   border-radius: 50%;
+   border: 10px solid red ;
+}
+.coming-head{
+   
+}
+.coming-head h1{
+   color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 50px;
+}
+.coming-head p{
+   width: 276px;
+}
+
+
 
 
 
