@@ -10,9 +10,11 @@
     width: 1320px;
     height: 600px;
     margin: 0 auto;
+    background-attachment: fixed;
     flex-shrink: 0;
     border-radius: 16px;
-    background-color: #070211   
+    background-color: #070211 
+      
 }
 .container h5{
     color: #FFF;
@@ -25,10 +27,69 @@
 }
 .container h1{
     color: #FFF;
+    width: 600px;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 900;
     line-height: 95px; 
- 
+  
 }
+ /* 65% off */
+ .section{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+ }
+ .section-heading{
+   text-align: center;
+   font-family: Inter;
+   font-style: normal;
+   line-height: normal;
+ }
+ .section-heading h1{
+    color: #F00;
+    font-size: 88px;
+     font-weight: 700;
+     line-height: normal;
+     margin-bottom: 48px;
+ }
+ .section-heading p{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+ }
+ .section-heading h3{
+    color: #070211;
+font-size: 48px;
+font-weight: 700;
+margin-top: 5px;
+ }
+ .Photo{
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+margin: 0 auto;
+background-attachment: fixed;
+ }
+ /* welcome to might night */
+ .party{
+    background-repeat: no-repeat;
+ }
+
+ .party-heading{
+    background-image: url('../Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin: 500px auto;
+    background-attachment: fixed;
+    flex-shrink: 0;
+    border-radius: 16px;
+ }
+
+
+ 
