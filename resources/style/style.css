@@ -37,7 +37,9 @@ button {
    width: 825%;
    max-width: 1320px;
    height: 600px;
-   margin: 0 auto;
+   margin: 100px auto;
+   border-radius: 16px;
+
 }
 
 .container h5 {
