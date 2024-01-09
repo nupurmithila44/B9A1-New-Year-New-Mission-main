@@ -336,15 +336,18 @@ button {
    line-height: 32px;
    text-align: left;
 }
-.section-content{
+
+.section-content {
    display: flex;
 }
+
 /* subscribe newsletter */
 
-.subscribe{
+.subscribe {
    padding: 100px 0;
 }
-.subscribe-containder{
+
+.subscribe-containder {
    background: rgba(255, 0, 0, 0.05);
    width: 825%;
    max-width: 1320px;
@@ -354,17 +357,20 @@ button {
    text-align: center;
    background-position: center;
 }
-.subscibe-heading{
+
+.subscibe-heading {
    max-width: 700px;
    align-items: center;
 }
-.subscibe-heading img{
+
+.subscibe-heading img {
    width: 150px;
-height: 150px;
-flex-shrink: 0;
-padding-left: 600px;
+   height: 150px;
+   flex-shrink: 0;
+   padding-left: 600px;
 }
-.subscribe-content h1{
+
+.subscribe-content h1 {
    color: #070211;
    text-align: center;
    font-family: Merriweather;
@@ -374,17 +380,100 @@ padding-left: 600px;
    line-height: normal;
    text-transform: capitalize;
 }
-.subscribe-content p{
+
+.subscribe-content p {
    color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
-padding: 5px 300px;
+   text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px;
+   padding: 5px 300px;
 }
-.subscribe-content button{
+
+.subscribe-content button {
    padding-left: 100px;
 }
 
+/* footer section */
+.footer {
+  
+}
+
+.footer-conteiner {
+   width: 825%;
+   max-width: 1320px;
+   margin: 0 auto;
+   background: #070211;
+}
+
+.top-heading {
+   width: 1000px;
+   height: 200px;
+   flex-shrink: 0;
+   display: flex;
+   justify-content: space-between;
+   padding: 60px;
+}
+
+.top1 h6 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 20px;
+}
+
+.top2 h5 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 40px;
+}
+
+.top2 h6 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 40px;
+   margin-top: 3px;
+}
+.middle-heading{
+   width: 1000px;
+   height: 100px;
+   padding-left: 500px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+}
+.bottom-heading{
+   width: 1000px;
+   height: 200px;
+   flex-shrink: 0;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px;
+}
+.bottom1 h6{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 100px;
+}
+.bottom2 h6{
+   color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
